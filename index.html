@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <title>F8 Messenger</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="chat-box hidden">
+                <div class="message-list">
+                    <div class="message-item">
+                        <div class="username">Hùng</div>
+                        <div class="message-content">Xin chào</div>
+                    </div>
+                    <div class="message-item">
+                        <div class="username">Tuấn Anh</div>
+                        <div class="message-content">Xin chào các bạn</div>
+                    </div>
+                    <div class="message-item me">
+                        <div class="message-content">Xin chào</div>
+                    </div>
+                </div>
+                <div class="input-wrapper">
+                    <input
+                        type="text"
+                        class="message-input"
+                        placeholder="Enter message..."
+                    />
+                    <button class="primary-button send-button">Send</button>
+                </div>
+            </div>
+            <div class="login-box">
+                <div class="logo">
+                    <img src="./assets/images/icon.jpg" alt="F8 messenger" />
+                </div>
+                <div class="login-form">
+                    <input
+                        type="text"
+                        class="form-input"
+                        placeholder="Enter your email..."
+                    />
+                    <input
+                        type="password"
+                        class="form-input"
+                        placeholder="Enter password..."
+                    />
+                    <button class="primary-button form-button">Login</button>
+                    <p class="navigate-message">
+                        Do not have account?
+                        <button class="register-now">Regsiter now</button>
+                    </p>
+                </div>
+                <div class="register-form hidden">
+                    <input
+                        type="text"
+                        class="form-input"
+                        placeholder="Enter your name..."
+                    />
+                    <input
+                        type="text"
+                        class="form-input"
+                        placeholder="Enter your email..."
+                    />
+                    <input
+                        type="password"
+                        class="form-input"
+                        placeholder="Enter password..."
+                    />
+                    <button class="primary-button form-button">Register</button>
+                    <p class="navigate-message">
+                        Already have account?
+                        <button class="login-now">Login</button>
+                    </p>
+                </div>
+                <div class="slogan">F8 - Học lập trình để đi làm</div>
+            </div>
+        </div>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
