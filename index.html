@@ -13,8 +13,11 @@
     <body>
         <div class="container">
             <div class="chat-box hidden">
+                <div class="menu">
+                    <button class="logout-button">Logout</button>
+                </div>
                 <div class="message-list">
-                    <div class="message-item">
+                    <!-- <div class="message-item">
                         <div class="username">Hùng</div>
                         <div class="message-content">Xin chào</div>
                     </div>
@@ -24,7 +27,7 @@
                     </div>
                     <div class="message-item me">
                         <div class="message-content">Xin chào</div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="input-wrapper">
                     <input type="text" class="message-input" placeholder="Enter message..." />
@@ -36,19 +39,19 @@
                     <img src="./assets/images/icon.jpg" alt="F8 messenger" />
                 </div>
                 <div class="login-form">
-                    <input type="text" class="form-input" placeholder="Enter your email..." />
-                    <input type="password" class="form-input" placeholder="Enter your password..." />
-                    <button class="primary-button form-button">Login</button>
+                    <input type="text" class="form-input email-input" placeholder="Enter your email..." />
+                    <input type="password" class="form-input password-input" placeholder="Enter your password..." />
+                    <button class="primary-button form-button login-button">Login</button>
                     <p class="navigate-message">
                         Do not have account?
                         <button class="register-now">Regsiter now</button>
                     </p>
                 </div>
                 <div class="register-form hidden">
-                    <input type="text" class="form-input" placeholder="Enter your name..." />
-                    <input type="text" class="form-input" placeholder="Enter your email..." />
-                    <input type="password" class="form-input" placeholder="Enter your password..." />
-                    <button class="primary-button form-button">Register</button>
+                    <input type="text" class="form-input username-input" placeholder="Enter your name..." />
+                    <input type="text" class="form-input email-input" placeholder="Enter your email..." />
+                    <input type="password" class="form-input password-input" placeholder="Enter your password..." />
+                    <button class="primary-button form-button register-button">Register</button>
                     <p class="navigate-message">
                         Already have account?
                         <button class="login-now">Login</button>
